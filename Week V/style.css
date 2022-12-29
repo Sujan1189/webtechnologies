@@ -15,10 +15,11 @@ body {
   
 }
 .right-half{
-  background-color: rgb(12, 59, 46);
+  background-color: #964B00;
   width: 50%;
   color: white;
   padding: 5%;
+  height: 655px;
 }
 .left-half{
   width: 50%;
@@ -29,7 +30,7 @@ body {
 }
 .left-half figure img{
   width: 100%;
-  height: 650px;
+  height: 655px;
 }
 
 .heading h1{
@@ -45,11 +46,12 @@ body {
 .date-venue p{
   padding-bottom: 40px;
   line-height: 25px;
+  font-size: 20px;
 }
 
-button{
+.BI{
   background-color: orange;
-  padding: 10px;
+  padding: 20px;
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -59,21 +61,13 @@ button{
   
 }
 
-button a{
-text-decoration: none;
-color: black;
-}
-
-button:hover{
+.BI:hover{
   background-color: black;
-  
+  transition: 0.5s;
+  color: orange;
 }
 
-button a:hover{
-  color: yellow;
-}
-
-@media (max-width:1024px){
+@media (max-width:640px){
   .two-half{
     flex-direction: column;
   }
@@ -81,4 +75,44 @@ button a:hover{
   .left-half,.right-half{
     width: 100%;
   }
+}
+.Second-page{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.right-side{
+  background-color: #ADD8E6;
+  width: 50%;
+  padding: 5%;
+  height: 660px;
+}
+.headingII h1{
+  font-size: 60px;
+  
+  color: white;
+}
+.contentII p{
+  color: white;
+  font-size: 20px;
+}
+.BII{
+  background-color: black;
+  color: white;
+  padding:2%;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+.BII:hover{
+  background-color: white;
+  transition: 0.5s;
+  color: black;
+}
+.left-side{
+  width: 50%;
+}
+.left-side figure img{
+  width: 100%;
+  height: 660px;
 }
