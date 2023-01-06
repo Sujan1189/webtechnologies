@@ -100,3 +100,28 @@ body{
 .pgiii{
     font-size: 20px;
 }
+.fourthpage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100vh;   
+}
+.rightii{
+    background-color: #FBDE68;
+    width: 50%;
+}
+.headingIV{
+    padding: 10%;
+}
+.contentii{
+    padding: 50px;
+}
+.contact{
+    padding: 10%;
+}
+.leftiii figure img{
+    width: 102vh;
+}
+.headingIV h1{
+    font-size: 60px;
+}
